@@ -11,7 +11,7 @@ class AddItemDataController extends GetxController {
   RxBool isUpdateLoading = false.obs;
   final picker = ImagePicker();
   File? image;
-
+//
   Future getCameraImage() async {
     final pickedFile = await picker.pickImage(source: ImageSource.camera);
 
